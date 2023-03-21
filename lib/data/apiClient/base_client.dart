@@ -2,7 +2,7 @@ import 'package:dio/dio.dart';
 import 'package:flutter/foundation.dart';
 
 class BaseClient {
-  static const _apiHostReal = 'https://eeva-backend.herokuapp.com/main-service';
+  static const _apiHostReal = 'http://localhost:3000/main-service';
   static const _apiLookup = 'https://www.iplocate.io/api/lookup';
 
   static BaseClient? _instance;

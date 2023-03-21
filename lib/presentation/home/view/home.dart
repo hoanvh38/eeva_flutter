@@ -1,6 +1,7 @@
 import 'package:eeva/core/app_export.dart';
 import 'package:eeva/widgets/custom_button.dart';
 import 'package:eeva/widgets/custom_icon_button.dart';
+import 'package:eeva/widgets/post_items.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
@@ -44,6 +45,7 @@ class HomePage extends GetView<HomeController> {
                 CustomContentText(
                   title: 'Tin tức và hoạt động',
                 ),
+                buildListNew(context),
                 buildJudges(context),
                 buildFooter(context)
               ],
@@ -513,6 +515,18 @@ class HomePage extends GetView<HomeController> {
       child: Text(
         title,
         style: TextStyleValue().interSemiBold14px,
+      ),
+    );
+  }
+
+  Widget buildListNew(BuildContext context) {
+    return SingleChildScrollView(
+      scrollDirection: Axis.horizontal,
+      child: Obx(
+        () => Row(
+          children:
+              controller.listPost.map((element) => PostItems(element)).toList(),
+        ),
       ),
     );
   }

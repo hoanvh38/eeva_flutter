@@ -45,6 +45,8 @@ class ColorConstant {
   static Color primary3 = fromHex('#F79B1D');
   static Color diveded = fromHex('#B1B5C3');
   static Color defaultColor = fromHex('#141416');
+  static Color neutral6 = fromHex('#E6E8EC');
+  static Color neutral4 = fromHex('#777E90');
 
 
   static Color fromHex(String hexString) {

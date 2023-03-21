@@ -6,7 +6,7 @@ class ApiClient extends BaseClient {
   final client = BaseClient.instance.dio;
 
   Future<Response> getNews({int offset = 0, int limit = 20}) async {
-    return client.get('$apiHostReal/public/posts');
+    return client.get('$apiHostReal/public/post');
   }
 
   Future<Response> getCategory({int offset = 0, int limit = 20}) async {
