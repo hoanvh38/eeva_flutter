@@ -14,6 +14,7 @@ class PostItems extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
+      width: 406.w,
       margin: EdgeInsets.only(right: 48.w),
       padding: EdgeInsets.all(16.w),
       decoration: BoxDecoration(

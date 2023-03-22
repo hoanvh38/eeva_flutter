@@ -523,9 +523,12 @@ class HomePage extends GetView<HomeController> {
     return SingleChildScrollView(
       scrollDirection: Axis.horizontal,
       child: Obx(
-        () => Row(
-          children:
-              controller.listPost.map((element) => PostItems(element)).toList(),
+        () => IntrinsicHeight(
+          child: Row(
+            children: controller.listPost
+                .map((element) => PostItems(element))
+                .toList(),
+          ),
         ),
       ),
     );
