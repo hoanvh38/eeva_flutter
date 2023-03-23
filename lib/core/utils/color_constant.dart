@@ -46,6 +46,7 @@ class ColorConstant {
   static Color diveded = fromHex('#B1B5C3');
   static Color defaultColor = fromHex('#141416');
   static Color neutral6 = fromHex('#E6E8EC');
+  static Color neutral8 = fromHex('#FCFCFD');
   static Color neutral4 = fromHex('#777E90');
 
 

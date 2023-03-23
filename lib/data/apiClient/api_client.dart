@@ -5,8 +5,10 @@ import 'base_client.dart';
 class ApiClient extends BaseClient {
   final client = BaseClient.instance.dio;
 
-  Future<Response> getNews({int offset = 0, int limit = 20}) async {
-    return client.get('$apiHostReal/public/post');
+  Future<Response> getNews(
+      {required String category, int offset = 0, int limit = 20}) async {
+    return client.get(
+        '$apiHostReal/public/post?category=$category&limit=$limit&offset=$offset');
   }
 
   Future<Response> getCategory({int offset = 0, int limit = 20}) async {

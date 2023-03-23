@@ -47,6 +47,7 @@ class PostItems extends StatelessWidget {
             model.title,
             maxLines: 2,
             style: TextStyleValue().interBold16px,
+            overflow: TextOverflow.ellipsis,
           ),
         ],
       ),

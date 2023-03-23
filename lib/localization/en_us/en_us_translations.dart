@@ -66,6 +66,7 @@ final Map<String, String> enUs = {
   'footer2' : "Dành cho đơn vị tham gia",
   'footer3' : "Thông tin liên hệ",
   "msg_c_ng_b_gi_i_th_ng": "CÔNG BỐ GIẢI THƯỞNG",
+  "access_time" : "Bản quyền thuộc về Sở Công Thương thành phố Hồ Chí Minh - Tổng số lượt truy cập: 0031280",
   "price_content1" : "Cơ quan chủ trì (Sở Công Thương thành phố Hồ Chí Minh) ban hành quyết định công bố giải thưởng, bao gồm mục tiêu, đối tượng, thời gian tổ chức giải thưởng cũng như các tiêu chí đánh giá và hồ sơ đăng ký tham gia.",
   "price_content2" : "Doanh nghiệp nộp hồ sơ tham gia cho Ban tổ chức tiếp nhận theo Quy chế kể từ ngày công bố giải thưởng. Nếu có thắc mắc và cần hỗ trợ, Ban tổ chức giải thưởng sẽ hướng dẫn doanh nghiệp chuẩn bị nội dung hồ sơ theo các hạng mục yêu cầu.",
   "price_content3" : "Cơ quan chủ trình thành lập Hội đồng chấm Giải thưởng hiệu quả năng lượng Thành phố Hồ Chí Minh. Hội đồng chấm giải thực hiện đánh giá, chấm điểm cho tất cả các hồ sơ tham dự, chọn 06 hồ sơ có điểm cao nhất để liên hệ xác minh thực tế để kiểm tra và đo lường. Cuối cùng, Ban giám khảo xác nhận kết quả xếp hạng chính xác và đề xuất trao giải với Sở Công thương.",

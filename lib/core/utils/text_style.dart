@@ -42,6 +42,16 @@ class TextStyleValue {
       fontSize: 20.sp,
       fontFamily: fontBold);
 
+  TextStyle interBold16pxCt = TextStyle(
+      color: ColorConstant.defaultColor,
+      fontSize: 16.sp,
+      fontFamily: fontBold);
+
+  TextStyle smallBold = TextStyle(
+      color: ColorConstant.defaultColor,
+      fontSize: 14.sp,
+      fontFamily: fontBold);
+
   TextStyle interSemiBold24px = TextStyle(
       color: ColorConstant.defaultColor,
       fontSize: 24.sp,
